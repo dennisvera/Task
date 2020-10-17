@@ -19,3 +19,16 @@ struct Task: Identifiable {
   var name: String
   var completed = false 
 }
+
+extension Task {
+  
+  enum Priority: String {
+    
+    // MARK: - Cases
+    
+    case no
+    case low
+    case medium
+    case high
+  }
+}

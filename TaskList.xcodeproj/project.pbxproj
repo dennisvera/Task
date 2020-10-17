@@ -20,6 +20,7 @@
 		E16A9E55253B9D8A00BD076D /* TaskEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E54253B9D8A00BD076D /* TaskEditingView.swift */; };
 		E16A9E59253BA15F00BD076D /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E57253BA15F00BD076D /* IndexedCollection.swift */; };
 		E16A9E5A253BA15F00BD076D /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E58253BA15F00BD076D /* ForEach.swift */; };
+		E16A9E5C253BAF9E00BD076D /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E5B253BAF9E00BD076D /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E16A9E54253B9D8A00BD076D /* TaskEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditingView.swift; sourceTree = "<group>"; };
 		E16A9E57253BA15F00BD076D /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
 		E16A9E58253BA15F00BD076D /* ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
+		E16A9E5B253BAF9E00BD076D /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				E16A9E52253B971A00BD076D /* RowView.swift */,
+				E16A9E5B253BAF9E00BD076D /* SectionView.swift */,
 				E16A9DD8253A493500BD076D /* TaskListView.swift */,
 				E16A9E50253B830B00BD076D /* NewTaskView.swift */,
 				E16A9E54253B9D8A00BD076D /* TaskEditingView.swift */,
@@ -233,6 +236,7 @@
 			files = (
 				E16A9DF2253A4BB700BD076D /* TaskStore.swift in Sources */,
 				E16A9DEF253A4A6100BD076D /* Task.swift in Sources */,
+				E16A9E5C253BAF9E00BD076D /* SectionView.swift in Sources */,
 				E16A9E59253BA15F00BD076D /* IndexedCollection.swift in Sources */,
 				E16A9E55253B9D8A00BD076D /* TaskEditingView.swift in Sources */,
 				E16A9E53253B971A00BD076D /* RowView.swift in Sources */,

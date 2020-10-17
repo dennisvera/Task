@@ -17,6 +17,7 @@ struct NewTaskView: View {
   // MARK: - State Properties
   
   @State var text = ""
+  @State var priority: Task.Priority = .no
   
   // MARK: - Environment Properties
   
@@ -29,7 +30,8 @@ struct NewTaskView: View {
       TextField("Task Name", text: $text)
       
       Button("Add") {
-        self.taskStore.tasks.append(Task(name: self.text))
+        let priorityIndex = self.taskStore.getIndex(for: self.priority)
+        self.taskStore.prioritizedTasks[priorityIndex].tasks.append(Task(name: self.text))
         self.presentationMode.wrappedValue.dismiss()
       }
       .disabled(text.isEmpty)
