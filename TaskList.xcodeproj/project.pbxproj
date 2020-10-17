@@ -16,6 +16,10 @@
 		E16A9DEF253A4A6100BD076D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9DEE253A4A6100BD076D /* Task.swift */; };
 		E16A9DF2253A4BB700BD076D /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9DF1253A4BB700BD076D /* TaskStore.swift */; };
 		E16A9E51253B830B00BD076D /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E50253B830B00BD076D /* NewTaskView.swift */; };
+		E16A9E53253B971A00BD076D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E52253B971A00BD076D /* RowView.swift */; };
+		E16A9E55253B9D8A00BD076D /* TaskEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E54253B9D8A00BD076D /* TaskEditingView.swift */; };
+		E16A9E59253BA15F00BD076D /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E57253BA15F00BD076D /* IndexedCollection.swift */; };
+		E16A9E5A253BA15F00BD076D /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E58253BA15F00BD076D /* ForEach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		E16A9DEE253A4A6100BD076D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E16A9DF1253A4BB700BD076D /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		E16A9E50253B830B00BD076D /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		E16A9E52253B971A00BD076D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		E16A9E54253B9D8A00BD076D /* TaskEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditingView.swift; sourceTree = "<group>"; };
+		E16A9E57253BA15F00BD076D /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
+		E16A9E58253BA15F00BD076D /* ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 				E16A9DED253A4A5500BD076D /* Models */,
 				E16A9DE9253A4A0B00BD076D /* Views */,
 				E16A9DEA253A4A1800BD076D /* Resources */,
+				E16A9E56253BA14800BD076D /* Extensions */,
 				E16A9DEB253A4A2700BD076D /* Stroryboards */,
 				E16A9DF0253A4A6B00BD076D /* Supporting Files */,
 				E16A9DDC253A493600BD076D /* Preview Content */,
@@ -93,8 +102,10 @@
 		E16A9DE9253A4A0B00BD076D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E16A9E52253B971A00BD076D /* RowView.swift */,
 				E16A9DD8253A493500BD076D /* TaskListView.swift */,
 				E16A9E50253B830B00BD076D /* NewTaskView.swift */,
+				E16A9E54253B9D8A00BD076D /* TaskEditingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +149,15 @@
 				E16A9DE2253A493600BD076D /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E16A9E56253BA14800BD076D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E16A9E58253BA15F00BD076D /* ForEach.swift */,
+				E16A9E57253BA15F00BD076D /* IndexedCollection.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +233,13 @@
 			files = (
 				E16A9DF2253A4BB700BD076D /* TaskStore.swift in Sources */,
 				E16A9DEF253A4A6100BD076D /* Task.swift in Sources */,
+				E16A9E59253BA15F00BD076D /* IndexedCollection.swift in Sources */,
+				E16A9E55253B9D8A00BD076D /* TaskEditingView.swift in Sources */,
+				E16A9E53253B971A00BD076D /* RowView.swift in Sources */,
 				E16A9E51253B830B00BD076D /* NewTaskView.swift in Sources */,
 				E16A9DD5253A493500BD076D /* AppDelegate.swift in Sources */,
 				E16A9DD7253A493500BD076D /* SceneDelegate.swift in Sources */,
+				E16A9E5A253BA15F00BD076D /* ForEach.swift in Sources */,
 				E16A9DD9253A493500BD076D /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
