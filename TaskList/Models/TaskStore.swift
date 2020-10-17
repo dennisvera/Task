@@ -6,11 +6,13 @@
 //  Copyright © 2020 Dennis Vera. All rights reserved.
 //
 
-final class TaskStore {
+import Combine
+
+final class TaskStore: ObservableObject {
   
   // MARK: - Properties
   
-  var tasks = [
+ @Published var tasks = [
      "Vacuum and Swiffer floor",
      "Laundry",
      "Throw garbage out",
