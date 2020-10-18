@@ -29,6 +29,18 @@ struct NewTaskView: View {
     Form {
       TextField("Task Name", text: $text)
       
+      VStack {
+        Text("Priority")
+        
+        Picker("Pirority", selection: $priority.caseIndex) {
+          ForEach(Task.Priority.allCases.indices) { priorityIndex in
+            Text(Task.Priority.allCases[priorityIndex].rawValue.capitalized)
+              .tag(priorityIndex)
+          }
+        }
+        .pickerStyle( SegmentedPickerStyle() )
+      }
+      
       Button("Add") {
         let priorityIndex = self.taskStore.getIndex(for: self.priority)
         self.taskStore.prioritizedTasks[priorityIndex].tasks.append(Task(name: self.text))
@@ -40,6 +52,9 @@ struct NewTaskView: View {
 }
 
 struct NewTaskView_Previews: PreviewProvider {
+  
+  // MARK: - Static Properties
+  
   static var previews: some View {
     NewTaskView(taskStore: TaskStore())
   }

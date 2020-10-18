@@ -22,7 +22,7 @@ struct Task: Identifiable {
 
 extension Task {
   
-  enum Priority: String {
+  enum Priority: String, CaseIterable {
     
     // MARK: - Cases
     

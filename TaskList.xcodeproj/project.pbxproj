@@ -21,6 +21,7 @@
 		E16A9E59253BA15F00BD076D /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E57253BA15F00BD076D /* IndexedCollection.swift */; };
 		E16A9E5A253BA15F00BD076D /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E58253BA15F00BD076D /* ForEach.swift */; };
 		E16A9E5C253BAF9E00BD076D /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E5B253BAF9E00BD076D /* SectionView.swift */; };
+		E16A9E5E253BBAAD00BD076D /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A9E5D253BBAAD00BD076D /* Binding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E16A9E57253BA15F00BD076D /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
 		E16A9E58253BA15F00BD076D /* ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
 		E16A9E5B253BAF9E00BD076D /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		E16A9E5D253BBAAD00BD076D /* Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		E16A9E56253BA14800BD076D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E16A9E5D253BBAAD00BD076D /* Binding.swift */,
 				E16A9E58253BA15F00BD076D /* ForEach.swift */,
 				E16A9E57253BA15F00BD076D /* IndexedCollection.swift */,
 			);
@@ -241,6 +244,7 @@
 				E16A9E55253B9D8A00BD076D /* TaskEditingView.swift in Sources */,
 				E16A9E53253B971A00BD076D /* RowView.swift in Sources */,
 				E16A9E51253B830B00BD076D /* NewTaskView.swift in Sources */,
+				E16A9E5E253BBAAD00BD076D /* Binding.swift in Sources */,
 				E16A9DD5253A493500BD076D /* AppDelegate.swift in Sources */,
 				E16A9DD7253A493500BD076D /* SceneDelegate.swift in Sources */,
 				E16A9E5A253BA15F00BD076D /* ForEach.swift in Sources */,
